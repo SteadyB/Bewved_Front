@@ -1,4 +1,13 @@
+import EmptyHome from "@/components/emptyHome";
+import List from "@/components/list";
+
 // `app/dashboard/page.tsx` is the UI for the `/dashboard` URL
 export default function Page() {
-  return <h1>Hello, Homepage!</h1>
+  return (
+    <div>
+      <EmptyHome>NO DATA - Selectionez une promotion</EmptyHome>
+      <List></List>
+    </div>
+
+  )
 }
