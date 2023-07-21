@@ -10,7 +10,7 @@ export const Toolbar = () => {
         <div className="flex flex-grow mr-4">
           <div className='flex mx-4'><span className="mr-4">genre</span> <Toggle /></div>
           <div className='flex mx-4'><span className="mr-4">age</span> <Toggle /></div>
-          <div className='flex mx-4'><span className="mr-4">competances</span> <Toggle /></div>
+          <div className='flex mx-4'><span className="mr-4">competences</span> <Toggle /></div>
         </div>
         <div className="flex flex-grow mr-4">
           <InputNumber></InputNumber>

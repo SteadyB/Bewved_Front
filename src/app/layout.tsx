@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Toolbar } from '@/components/toolbar'
+import Forms from '@/components/Forms'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,6 +35,7 @@ export default function RootLayout({
            {children}
           </div>
         </div>
+        <Forms />
       </body>
     </html>
   )
